@@ -29,7 +29,7 @@ function ServiceAdd() {
 
   if (item.edit && item.id) {
     return (
-      <form onSubmit={handleSubmit}>
+      <form>
         <input name='name' onChange={handleChange} value={item.name} />
         <input name='price' onChange={handleChange} value={item.price} />
         <button onClick={handleUpdate}>Update</button>
